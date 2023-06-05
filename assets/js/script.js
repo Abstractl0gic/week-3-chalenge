@@ -9,7 +9,7 @@ var passwordButton = document.querySelector("#generate");
 // letting the Password button call the HTML document
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+passwordButton.addEventListener("click", writePassword);
 
 // setting a function to tell the page what to do when the user answers the prompts
 function generatePassword() {
